@@ -1,0 +1,29 @@
+/* ---------------------------------------------------------
+   General resets
+   ---------------------------------------------------------*/
+
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+* {max-height: 1000000px;}
+
+// adaptive images
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+// google map fix
+.gm-style img {max-width: none}
+
+[href^=tel],
+[href^=skype] {
+	@include media('>=1025px') {
+		pointer-events: none;
+		display: inline-block;
+	}
+}

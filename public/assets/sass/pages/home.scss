@@ -1,0 +1,14 @@
+.slider-wrapper {
+  height: 270px;
+  width: 100%;
+  background: url('../../img/bgSlider.jpg') no-repeat 0 0 scroll transparent;
+  background-size: cover;
+
+  .flexslider {
+    max-width: 980px;
+    margin: 0 auto;
+  }
+
+}
+
+

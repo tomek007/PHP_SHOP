@@ -1,0 +1,22 @@
+body {
+  font-family: Arial;
+  font-size: 14px;
+  line-height: normal;
+}
+
+.grid {
+  .item {
+    float: left;
+  }
+  @extend .clearfix;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+}
