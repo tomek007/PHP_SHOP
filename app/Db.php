@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: tm007
- * Date: 15/07/17
- * Time: 14:24
- */
 
 namespace App;
 
@@ -28,5 +22,5 @@ class Db
 
 }
 
-Db::getInstance()->query('SELECT * FROM users');
-User::all();
+//Db::getInstance()->query('SELECT * FROM users');
+//User::all();
