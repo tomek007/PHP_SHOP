@@ -1,6 +1,0 @@
-*.css linguist-language=PHP
-*.java linguist-detectable=fale
-*.html linguist-detectable=false
-*.xml linguist-detectable=false
-*.css linguist-detectable=false
-*.php linguist-detectable=true
